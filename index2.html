@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Images</title>
+    <style>
+
+        body{
+            margin: 0 30px;
+        }
+        .head{
+            display: flex;
+            justify-content: space-between;
+        }
+        .img{
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            grid-gap: 0;
+        }
+        .img img{
+            border-radius: 20px;
+        }
+        .img1{
+            width: 200px;
+            height: 300px;
+        }
+        .img2{
+            width: 200px;
+            height: 350px;
+        }
+        .img3{
+            width: 200px;
+            height: 200px;
+        }
+         .img4{
+            width: 200px;
+            height: 300px;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="head">
+        <p>All</p>
+        <p>Living room...</p>
+        <p>Face mask</p>
+    </div>
+    <div class="img">
+        <div>
+            <img src="image/ankara.jpg" alt="Ankara styles" class="img1">
+        </div>
+        <div>
+             <img src="image/bedroom.jpg" alt="beadroom styles" class="img2">
+        </div>
+        <div>
+            <img src="image/henna.jpg" alt="Henna style" class="img3">
+        </div>
+        <div>
+            <img src="image/material.jpg" alt="materials style" class="img4">
+        </div>
+    </div>
+</body>
+</html>

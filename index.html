@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/ab2164bc4f.js" crossorigin="anonymous"></script>
+    <title>page</title>
+    <style>
+
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        body{
+            height:100vh;
+            background: linear-gradient(
+                to right,
+                rgb(2, 2, 84) 0%,
+                rgb(2, 2, 84) 50%,
+                rgb(90, 137, 239) 50%,
+                rgb(90, 137, 239) 100% 
+            );
+            color: white;
+        }
+        .head{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 20px 50px;
+            font-size: 40px;
+            font-weight: 600;
+        }
+        .container{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin: 100px 120px;
+        }
+        .header{
+            font-size: 80px;
+            margin-bottom: 10px;
+            font-weight: 800;
+        }
+        .sub-header{
+            font-size: 30px;
+            margin-bottom: 20px;
+        }
+        .container-right img{
+            width: 900px;
+            height: 500px;
+        }
+        button{
+            background-color: white;
+            color: black;
+            border: none;
+            padding: 15px 50px;
+            font-size: 25px;
+            margin-top: 40px;
+            cursor: pointer;
+            margin-right: 20px;
+        }
+        .orange{
+            background-color: #ff4805
+        }
+
+    </style>
+    
+</head>
+<body>
+    <div class="head">
+        <div>
+            Khadija
+        </div>
+        <i class="fa-solid fa-bars"></i>
+    </div>
+    <div class="container">
+        <div class="container-left">
+            <p class= "header">
+                YOU CAN <br>
+            HIRE  FREELANCER <br>
+            HERE
+            </p>
+            <p class="sub-header">
+                it is a long established fact that a reader will be distracted by <br>
+                the readable content of a page
+            </p>
+            <button class="orange">About Us</button>
+            <button>Get A Quote</button>
+        </div>
+        <div class="container-right">
+            <img src="image/woman.jpg" alt="A Woman Coding">
+        </div>
+    </div>
+</body>
+</html>
